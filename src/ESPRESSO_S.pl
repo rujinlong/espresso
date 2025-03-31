@@ -1,3 +1,5 @@
+#!/opt/conda/bin/perl
+
 use strict;
 use threads;
 use threads::shared;

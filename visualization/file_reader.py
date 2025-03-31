@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 def try_parse_float(string):
     try:
         return float(string), None

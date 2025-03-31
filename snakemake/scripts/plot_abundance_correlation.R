@@ -1,3 +1,5 @@
+#! /usr/bin/env Rscript
+
 library('ggplot2')
 
 args <- base::commandArgs(trailingOnly=TRUE)
