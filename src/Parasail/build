@@ -15,9 +15,9 @@ function build_library() {
 
   local URI='https://github.com/jeffdaily/parasail.git'
   local VERSION='v2.6.2'
-  git clone "${URI}" || return 1
+  /opt/conda/bin/git clone "${URI}" || return 1
   cd parasail || return 1
-  git checkout "${VERSION}" || return 1
+  /opt/conda/bin/git checkout "${VERSION}" || return 1
   mkdir build || return 1
   cd build || return 1
   cmake .. || return 1
